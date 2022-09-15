@@ -115,4 +115,10 @@ h2 {
   letter-spacing: 10px;
   text-align: center;
   text-transform: uppercase;
+}
+
+footer {
+  height: 10vh;
+  background: #dd193a;
+  background: linear-gradient(90deg, #dd193a 0%, #dd193a 16.667%, #f99435 16.667%, #f99435 33.334%, #fef032 33.334%, #fef032 50%, #00e35e 50%, #00e35e 66.667%, #0097fb 66.667%, #0097fb 83.334%, #8564e2 83.334%, #8564e2 100%);
 }/*# sourceMappingURL=style.css.map */
