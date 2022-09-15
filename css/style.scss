@@ -106,8 +106,13 @@ main {
   height: calc(100vh - 183px) !important; // Subtracts Header and Nav height
 }
 
+.video-container {
+  height: calc(100vh - 183px);
+}
+
 video {
   width: 100%;
-  height: calc(100vh - 200px) !important;
+  height: auto;
+  max-height: 100%;
 }
 // End of MAIN: PROGRESS REEL
