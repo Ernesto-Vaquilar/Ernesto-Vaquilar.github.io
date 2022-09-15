@@ -1,9 +1,9 @@
-# Bootstrap Template
+# Ernesto Vaquilar Animation and Web Development Portfolio
 ## Description
-Bootstrap template is used for other projects as a boilerplate.
+Homepage for Ernesto Vaquilar Showcasing Animation and Web Development.
 
 ## Contributing
-Issue Tracker: github.com/Ernesto-Vaquilar/bootstrap-template/issues
+Issue Tracker: https://github.com/Ernesto-Vaquilar/Ernesto-Vaquilar.github.io/issues
 
 ## Licensing
 MIT
