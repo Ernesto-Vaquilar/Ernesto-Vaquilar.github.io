@@ -105,6 +105,7 @@ h1 {
 main {
   height: calc(100vh - 183px) !important; // Subtracts Header and Nav height
   scroll-margin-top: 1000px;
+  margin-bottom: 56px;
 }
 
 .video-container {
@@ -121,7 +122,7 @@ video {
 // PROJECTS SECTION
 section {
   //Applies to all sections
-  height: calc(100vh - 56px); // Subtracts navbar height
+  height: 100vh;
   scroll-margin: 56px;
 }
 

@@ -92,6 +92,7 @@ h1 {
 main {
   height: calc(100vh - 183px) !important;
   scroll-margin-top: 1000px;
+  margin-bottom: 56px;
 }
 
 .video-container {
@@ -105,7 +106,7 @@ video {
 }
 
 section {
-  height: calc(100vh - 56px);
+  height: 100vh;
   scroll-margin: 56px;
 }
 
