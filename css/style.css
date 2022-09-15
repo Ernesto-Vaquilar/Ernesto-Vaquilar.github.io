@@ -40,6 +40,7 @@ h1 {
 
 #main-nav {
   height: 56px;
+  background-color: #2e2d2d;
 }
 
 #main-nav li {
@@ -86,4 +87,13 @@ h1 {
 
 .offcanvas {
   --bs-offcanvas-width: 220px !important;
+}
+
+main {
+  height: calc(100vh - 183px) !important;
+}
+
+video {
+  width: 100%;
+  height: calc(100vh - 200px) !important;
 }/*# sourceMappingURL=style.css.map */

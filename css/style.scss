@@ -1,6 +1,4 @@
 // GLOBAL SETTINGS
-
-// Smooth Scrolling if there isn't a set browser preference
 @media (prefers-reduced-motion: no-preference) {
   * {
     scroll-behavior: smooth;
@@ -12,6 +10,7 @@
 
 $defaultFont: "Montserrat", sans-serif;
 $headingFont: "Roboto Condensed", sans-serif;
+// End of FONT SETTINGS
 
 body {
   color: #fff;
@@ -51,6 +50,7 @@ h1 {
 // NAVIGAVTION
 #main-nav {
   height: 56px;
+  background-color: #2e2d2d;
 }
 #main-nav li {
   width: 190px;
@@ -99,5 +99,15 @@ h1 {
 .offcanvas {
   --bs-offcanvas-width: 220px !important; // This decreases width of offcanvas size
 }
-
 // End of NAVIGATION
+
+// MAIN: PROGRESS REEL
+main {
+  height: calc(100vh - 183px) !important; // Subtracts Header and Nav height
+}
+
+video {
+  width: 100%;
+  height: calc(100vh - 200px) !important;
+}
+// End of MAIN: PROGRESS REEL
