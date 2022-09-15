@@ -103,7 +103,7 @@ h1 {
 
 // MAIN: PROGRESS REEL
 main {
-  height: calc(100vh - 183px) !important; // Subtracts Header and Nav height
+  height: calc(100vh - 183px); // Subtracts Header and Nav height
   scroll-margin-top: 1000px;
   margin-bottom: 56px;
 }

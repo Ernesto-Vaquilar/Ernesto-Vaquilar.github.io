@@ -8,7 +8,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   header {
     height: auto;
   }
@@ -16,6 +16,9 @@
     height: auto;
   }
   .video-container {
+    height: auto;
+  }
+  section{
     height: auto;
   }
 }
