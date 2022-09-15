@@ -1,19 +1,10 @@
 @media (max-width: 576px) {
-  header {
-    height: auto;
-  }
   .logo {
     max-width: 50px;
   }
   h1 {
     font-size: 20px;
     text-align: center;
-  }
-  main {
-    height: auto;
-  }
-  .video-container {
-    height: auto;
   }
 }
 
