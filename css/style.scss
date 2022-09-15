@@ -45,7 +45,6 @@ h1 {
   position: relative;
   left: 0.75%;
 }
-
 // End of Header
 
 // NAVIGAVTION
@@ -105,10 +104,11 @@ h1 {
 // MAIN: PROGRESS REEL
 main {
   height: calc(100vh - 183px) !important; // Subtracts Header and Nav height
+  scroll-margin-top: 1000px;
 }
 
 .video-container {
-  height: calc(100vh - 183px);
+  height: 100%;
 }
 
 video {
@@ -117,3 +117,18 @@ video {
   max-height: 100%;
 }
 // End of MAIN: PROGRESS REEL
+
+// PROJECTS SECTION
+section {
+  //Applies to all sections
+  height: calc(100vh - 56px); // Subtracts navbar height
+  scroll-margin: 56px;
+}
+
+h2 {
+  font-family: $headingFont;
+  font-size: 35px;
+  letter-spacing: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
