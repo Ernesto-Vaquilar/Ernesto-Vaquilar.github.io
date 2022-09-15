@@ -14,7 +14,7 @@ $headingFont: "Roboto Condensed", sans-serif;
 
 body {
   color: #fff;
-  background-color: #2e2d2d;
+  background-color: #0f0f0f;
   font-family: $defaultFont;
   -ms-overflow-style: none; /* Hides scrollbar IE and Edge */
   scrollbar-width: none; /* Hides scrollbar for Firefox */
@@ -28,6 +28,7 @@ body::-webkit-scrollbar {
 // HEADER
 header {
   height: 130px;
+  background-color: #2e2d2d;
 }
 .logo {
   max-width: 70px;
@@ -48,6 +49,9 @@ h1 {
 // End of Header
 
 // NAVIGAVTION
+#progress-reel {
+  background-color: #2e2d2d;
+}
 #main-nav {
   height: 56px;
   background-color: #2e2d2d;
@@ -126,6 +130,10 @@ section {
   scroll-margin: 56px;
 }
 
+#projects {
+  background-color: #1f1f1f;
+}
+
 h2 {
   font-family: $headingFont;
   font-size: 35px;
@@ -134,12 +142,15 @@ h2 {
   text-transform: uppercase;
 }
 
-.card{
+.card {
   background-color: #2e2d2d;
 }
 // End of PROJECTS SECTION
 
 // ABOUT SECTION
+#about {
+  background-color: #0f0f0f;
+}
 .about-content {
   font-size: 20px;
 }
@@ -155,6 +166,12 @@ h2 {
   color: #000;
   background-color: #fff;
 }
+
+// CONTACT SECTION
+#contact {
+  background-color: #000;
+}
+
 // FOOTER
 footer {
   height: 10vh;
