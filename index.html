@@ -23,9 +23,82 @@
   <body>
     <div class="d-flex flex-column">
       <!-- HEADER -->
+      <header class="pt-3">
+        <div class="mx-auto logo">
+          <a href="./index.html"
+            ><img
+              src="./media/logo.svg"
+              alt="Intersecting Circle and Triangle Logo"
+          /></a>
+        </div>
+        <h1 class="pt-3">Ernesto Vaquilar</h1>
+      </header>
       <!-- End of HEADER -->
 
       <!-- NAVIGATION -->
+      <nav
+        class="navbar navbar-dark navbar-expand-lg sticky-top order-first order-lg-0"
+        id="main-nav"
+      >
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#navbarOffcanvasLg"
+            aria-controls="navbar Offcanvas"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-start bg-dark"
+            tabindex="-1"
+            id="navbarOffcanvasLg"
+            aria-labelledby="navbar Offcanvas"
+          >
+            <div class="offcanvas-header">
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body d-lg-flex justify-content-center">
+              <ul
+                class="navbar-nav text-uppercase d-flex justify-content-center"
+              >
+                <li class="nav-item">
+                  <a
+                    class="nav-link active hover-animation"
+                    aria-current="page"
+                    href="./index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link hover-animation" href="#progress-reel"
+                    >Progress Reel</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link hover-animation" href="#projects"
+                    >Projects</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link hover-animation" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link hover-animation" href="#contact"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
       <!-- End of Navigation -->
 
       <!-- PROGRESS REEL -->
@@ -39,7 +112,7 @@
 
       <!-- CONTACT SECTION -->
       <!-- End of CONTACT SECTION -->
-      
+
       <!-- FOOTER -->
       <!-- End of FOOTER -->
     </div>
