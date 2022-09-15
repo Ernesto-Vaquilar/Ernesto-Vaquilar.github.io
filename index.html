@@ -151,17 +151,62 @@
       <!-- PROJECTS SECTION -->
       <section
         id="projects"
-        class="container-fluid d-flex flex-column align-items-center justify-content-between"
+        class="container-fluid"
         role="region"
         aria-labelledby="projects"
       >
         <div class="row">
           <h2>Projects</h2>
         </div>
-        <div class="row">
-          <p>text</p>
-        </div>
-        <div class="row"><p></p></div>
+        <div class="row py-5 justify-content-center">
+          <p class="py-3 text-center">
+            Below are Web Development Projects that I have completed
+            during my journey as a Bitwise Workforce Training student:
+          </p>
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3">
+            <div class="col">
+              <div class="card h-100 border border-white">
+                <img src="..." class="card-img-top" alt=""> <!-- NO ALT TEXT TO REDUCE CARD VERBOSITY -->
+                <div class="card-body text-center">
+                  <h5 class="card-title">Event Landing Page</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <button class="btn btn-outline-light" type="button"><a class="nav-link" href="https://ernesto-vaquilar.github.io/event-landing-page/">View<span class="visually-hidden">Event Landing Page</span></a></button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border border-white">
+                <img src="..." class="card-img-top" alt="">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Parallax Practice</h5>
+                  <p class="card-text">This is a short card.</p>
+                  <button class="btn btn-outline-light" type="button"><a class="nav-link" href="https://ernesto-vaquilar.github.io/parallax-practice/">View<span class="visually-hidden">Parallax Practice</span></a></button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border border-white">
+                <img src="..." class="card-img-top" alt="">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <button class="btn btn-outline-light" type="button"><a class="nav-link" href="https://ernesto-vaquilar.github.io/carousel-practice/">View<span class="visually-hidden">Carousel Practice</span></a></button>
+
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border border-white">
+                <img src="..." class="card-img-top" alt="">
+                <div class="card-body text-center">
+                  <h5 class="card-title">W4B Final Project</h5>
+                  <p class="card-text">This is my final project from the Websites for Beginners class. It is not responsive, and therefore not mobile device friendly.</p>
+                  <button class="btn btn-outline-light" type="button"><a class="nav-link" href="https://ernesto-vaquilar.github.io/Final-Project/">View<span class="visually-hidden">W4B Final Project</span></a></button>
+
+                </div>
+              </div>
+            </div>
+          </div>
       </section>
       <!-- End of PROJECTS SECTION -->
 
@@ -264,7 +309,7 @@
         <div class="row">
           <h2>Contact</h2>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center py-5">
           <div class="col-12 col-md-6 col-xl-4 order-2 order-md-first">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102251.87718822097!2d-119.86460116004271!3d36.785650403438304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80945de1549e4e9d%3A0x7b12406449a3b811!2sFresno%2C%20CA!5e0!3m2!1sen!2sus!4v1663247659656!5m2!1sen!2sus"
@@ -278,6 +323,7 @@
           </div>
           <div class="col-12 col-md-6 col-xl-4">
             <form
+            class="text-center"
               action="https://formsubmit.co/5dae18a0e9c88ab155234ad424884c7a"
               method="POST"
             >
@@ -295,6 +341,7 @@
                   class="form-control"
                   id="exampleFormControlInput1"
                   placeholder="name@example.com"
+                  required
                 />
               </div>
               <div class="mb-3">
@@ -305,9 +352,10 @@
                   class="form-control"
                   id="exampleFormControlTextarea1"
                   rows="5"
+                  required
                 ></textarea>
               </div>
-              <button type="submit" class="btn btn-white btn-outline">
+              <button type="submit" class="btn btn-outline-light">
                 Submit
               </button>
             </form>

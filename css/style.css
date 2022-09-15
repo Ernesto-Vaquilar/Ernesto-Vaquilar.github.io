@@ -118,6 +118,10 @@ h2 {
   text-transform: uppercase;
 }
 
+.card {
+  background-color: #2e2d2d;
+}
+
 .about-content {
   font-size: 20px;
 }
