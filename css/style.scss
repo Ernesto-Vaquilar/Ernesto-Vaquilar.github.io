@@ -14,7 +14,7 @@ $headingFont: "Roboto Condensed", sans-serif;
 
 body {
   color: #fff;
-  background-color: #0f0f0f;
+  background-color: #2e2d2d;
   font-family: $defaultFont;
   -ms-overflow-style: none; /* Hides scrollbar IE and Edge */
   scrollbar-width: none; /* Hides scrollbar for Firefox */
@@ -109,17 +109,16 @@ h1 {
 main {
   height: calc(100vh - 183px); // Subtracts Header and Nav height
   scroll-margin-top: 1000px;
-  margin-bottom: 56px;
 }
 
 .video-container {
-  height: 100%;
+  width: 100%;
 }
 
 video {
-  width: 100%;
-  height: auto;
-  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: 100%;
 }
 // End of MAIN: PROGRESS REEL
 
